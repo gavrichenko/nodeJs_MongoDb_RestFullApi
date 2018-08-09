@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_mongodb_restfullapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrichenko/nodeJs_MongoDb_RestFullApi.git"
+  },
+  "author": "ilya gavrichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavrichenko/nodeJs_MongoDb_RestFullApi/issues"
+  },
+  "homepage": "https://github.com/gavrichenko/nodeJs_MongoDb_RestFullApi#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
