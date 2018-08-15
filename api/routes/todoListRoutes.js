@@ -1,11 +1,18 @@
 module.exports = function(app) {
   const todoList = require('../controllers/todoListController');
+  const flowers = require('../controllers/flowersController');
+
+  //flowers Routes
+  app.route('/flowers')
+    .get(flowers.list_all_flowers)
+    .post(flowers.create_a_flower);
+
+
 
   // todoList Routes
   app.route('/tasks')
     .get(todoList.list_all_tasks)
     .post(todoList.create_a_task);
-
 
   app.route('/tasks/:taskId')
     .get(todoList.read_a_task)
